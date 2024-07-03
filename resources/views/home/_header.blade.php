@@ -17,9 +17,9 @@
                         <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">ENG <i class="fa fa-caret-down"></i></a>
                         <ul class="custom-menu">
                             <li><a href="#">English (ENG)</a></li>
-                            <li><a href="#">Russian (Ru)</a></li>
+                            <li><a href="#">Russian (RU)</a></li>
                             <li><a href="#">French (FR)</a></li>
-                            <li><a href="#">Spanish (Es)</a></li>
+                            <li><a href="#">Spanish (ES)</a></li>
                         </ul>
                     </li>
                     <li class="dropdown default-dropdown">
