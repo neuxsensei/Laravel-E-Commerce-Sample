@@ -20,10 +20,11 @@ Route::get('/test/{id}/{name}',[HomeController::class,'test'])->where(['id'=>'[0
 
 Route::get('/admin',[App\Http\Controllers\Admin\HomeController::class,'admin'])->name('admin');
 
+Route::get('/admin/login',[App\Http\Controllers\Admin\HomeController::class,'login'])->name('adminlogin');
 
+Route::post('/admin/login_check',[App\Http\Controllers\Admin\HomeController::class,'logincheck'])->name('admin_logincheck');
 
-
-
+Route::get('/admin/logout',[App\Http\Controllers\Admin\HomeController::class,'logout'])->name('admin_logout');
 
 
 
