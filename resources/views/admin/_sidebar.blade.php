@@ -33,15 +33,15 @@
                     <a href="#" class="nav-link active">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
-                            Dashboard
+                            Database Dashboard
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="{{asset('TEMPLATES')}}/AdminLTE-3.0.5/index.html" class="nav-link active">
+                            <a href="{{route('admin_category')}}" class="nav-link active">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Dashboard v1</p>
+                                <p>Category</p>
                             </a>
                         </li>
                         <li class="nav-item">
